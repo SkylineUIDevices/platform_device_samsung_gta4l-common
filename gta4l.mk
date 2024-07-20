@@ -186,7 +186,16 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libc2dcolorconvert \
-    libstagefrighthw
+    libstagefrighthw \
+    libopus.vendor \
+    libstagefright_amrnb_common.vendor \
+    libstagefright_enc_common \
+    libstagefright_enc_common.vendor \
+    libstagefright_softomx_plugin.vendor \
+    libstagefright_softomx.vendor \
+    libvorbisidec.vendor \
+    libvpx.vendor
+
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
